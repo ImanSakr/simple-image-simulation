@@ -1,0 +1,362 @@
+body {background-color: #161616;
+	  font-family: Times, serif;
+	  color: #687072}
+
+.clearfix {
+	clear: both;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.header {
+	width: 890px;
+	margin: auto;
+}
+
+.header .slider {
+	background-image: url("../images/navbar.png");
+	height: 550px;
+}
+
+
+.header .container {
+	width: 700px;
+	margin: auto;
+}
+
+.header .navbar {
+	background-color: #273334;
+	overflow: hidden;
+
+}
+
+.header .navbar ul {
+	list-style: none;
+	color: #cacfd3;
+	float: right;
+	margin-top: 11px;
+
+}
+
+.header .navbar ul li {
+	display: inline;
+	float: left;
+	padding: 8px;
+
+}
+
+.logo {
+	color: white;
+	display: inline-block;
+	padding-top: 16px;
+	text-align: center;
+}
+
+.logo img{
+	padding-top: 3.5px;
+
+}
+#logo {
+	float: left;
+}
+
+h3 {
+	display: inline;
+
+}
+
+span {color: #00DA76;}
+
+.features {
+	color: #687072;	
+	background-color: white;
+	/*margin: auto;*/
+	padding-top: 40px;
+	padding-bottom: 0px;
+	min-height: 150px;
+	margin-top: 0px;
+
+}
+
+.features .container .feat p {
+	font-size: 13px;
+
+}
+
+.features .container .feat h3 {
+	font-weight: bold;
+
+}
+
+.feat{
+	float: left;
+	width: 33.3333%;
+	height: 150px;
+	font-size: 16px;
+	font-family: "Times New Roman";
+
+}
+
+h2 {
+	text-transform: uppercase;
+	color: #6E6D77;
+}
+
+.about_me {
+	background-color: #F2F1F1;
+	overflow: hidden;
+}
+
+.image {
+	float: left;
+	margin-right: 50px;
+}
+
+.image img {
+	height: 483px;
+
+}
+
+.info {
+	padding-top: 40px;
+	height: 430px;
+	padding-right: 20px;
+}
+
+.info p h {
+	float: left;
+}
+
+.info h3,
+.my_skills h3,
+ {
+	font-weight: bold;
+}
+
+.info div {
+	width: 25%;
+	min-height: 130px;
+	float: left;
+	padding-right: 40px;
+}
+
+.info p {
+	font-size: 13px;
+}
+
+.skills {
+	background-color: white;
+	padding: 3%;
+	overflow: hidden;
+	height: 400px;
+	min-height: 400px;
+}
+
+.skills .container .my_skills button,
+.resume .container button {
+	color: #00D978;
+	background-color: white;
+	border-color: #00D978;
+	font-size: 13px;
+	padding: 10px 20px;
+	font-weight: bold;
+	}
+
+.my_skills {
+	width: 50%;
+	float: left;
+
+}
+
+.skills .container .my_skills p {
+	color: #556563;
+}
+
+.skills .container .my_skills h3{
+	margin-top: 250px;
+}
+
+.skills_progress {
+	float: right;
+	width: 50%;
+	padding: 4%;
+
+}
+
+.skills_progress > p {
+	font-weight: 700;
+	color: #556563
+}
+
+.resume,
+.portfolio,
+.testie {
+	background-color: #F2F1F1;
+	text-align: center;
+	color: #687072;
+	padding: 35px;
+
+}
+
+.resume h3,
+.portfolio .container h4,
+{
+	font-weight: bold;
+	color: #667473;
+
+}
+
+.portfolio .container p {
+	font-size: 13px;
+	padding-bottom: 30px;
+}
+
+.resume .container p {
+	padding: 20px;
+}
+
+.resume .container button {
+	margin-bottom: 30px;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #F2F0F0;
+	margin-left: 48%;
+
+}
+
+.education,
+.experience,
+.contacting{
+	overflow: hidden;
+	color: #687072;
+	background-color: white;
+
+}
+
+.my_education,
+.my_experience,
+.contact_me
+ {
+	float: left;
+	width: 50%;
+	padding: 20px;
+	padding-top: 40px;
+
+}
+
+.education .container h3,
+.experience .container h3 {
+	font-weight: bold;
+	margin-top: 250px;
+	/*color: #DDDDDD*/
+}
+
+.education .container p,
+.experience .container p {
+	font-size: 12px;
+	padding: 0px;
+	/*margin: 5px;*/
+	margin-bottom: 5px;
+	/*color: #CDCDCD;*/
+}
+
+.education_details,
+.experience_details,
+.contact_info
+ {
+	float: left;
+	width: 50%;
+	padding-top: 9.5%;
+}
+
+.education .container span,
+.experience .container span {
+	background-color: #00D978;
+	color: white;
+	margin-top: 5px;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 5px 5px;
+
+}
+
+hr {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+h5 {
+	font-weight: bold;
+}
+
+.portfolio .container .porfolio_galary img {
+	width: 30%;
+	padding: 10px;
+}
+
+.portfolio {
+	padding: 40px;
+	background-color: white;
+}
+
+.contacting {
+	background-color: #273334;
+	overflow: hidden;
+}
+
+.contacting .container .contact_me span {
+	color: white;
+
+}
+
+.contact_info {
+	padding-top: 10%;
+}
+
+input, textarea{
+	width: 300px;
+	margin-bottom: 16px;
+}
+
+textarea {
+	height: 150px;
+}
+
+.contacting .container .contact_info button {
+	background-color: #1E2326;
+	color: white;
+	padding: 8px 12px;
+	font-size: 12px;
+	font-weight: bold;
+	border-color: #1E2326;
+	border: none;
+	margin-bottom: 50px;
+}
+
+.contacting .container .contact_me h4 {
+	color: white;
+}
+
+.contacting .container .contact_me p {
+	font-size: 13px;
+}
+
+.social_media {
+	background-color: #1E2326;
+	text-align: center;
+	height: 100px;
+}
+
+.social_media p {
+	font-size: 11px;
+	margin-top: 3%;
+}
+
+.social_media container img {
+	margin-bottom: 22px;
